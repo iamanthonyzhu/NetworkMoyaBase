@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>base_url_writing_work</key>
+	<dict>
+		<key>DEBUG</key>
+		<string>http://dev.web.xxxxx.com/writing/</string>
+		<key>RELEASE</key>
+		<string>https://www.xxxxx.com/writing/</string>
+		<key>UAT</key>
+		<string>https://uatwww.xxxxx.com/writing/</string>
+	</dict>
+	<key>log_url</key>
+	<dict>
+		<key>RELEASE</key>
+		<string>https://www.xxxxx.com/</string>
+		<key>DEBUG</key>
+		<string>http://www.xxxxx.com/</string>
+		<key>UAT</key>
+		<string>https://www.xxxxx.com/</string>
+	</dict>
+	<key>base_url_Test</key>
+	<dict>
+		<key>DEBUG</key>
+		<string>http://dev.api.xxxxx.com/mobile/</string>
+		<key>RELEASE</key>
+		<string>https://api.xxxxx.com/mobile/</string>
+		<key>UAT</key>
+		<string>http://uatapi.xxxxx.com/mobile/</string>
+	</dict>
+	<key>base_user_url</key>
+	<dict>
+		<key>DEBUG</key>
+		<string>http://dev.passport.xxxxx.com/</string>
+		<key>RELEASE</key>
+		<string>https://passport.xxxxx.com/</string>
+		<key>UAT</key>
+		<string>http://uatpassport.xxxxx.com/</string>
+	</dict>
+	<key>base_url_Ad</key>
+	<dict>
+		<key>DEBUG</key>
+		<string>http://dev.nas.xxxxx.com/api/</string>
+		<key>RELEASE</key>
+		<string>https://nas.xxxxx.com/api/</string>
+		<key>UAT</key>
+		<string>http://uatnas.xxxxx.com/api/</string>
+	</dict>
+</dict>
+</plist>

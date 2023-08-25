@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (5.6.4)
+  - extobjc (0.0.1)
+  - HandyJSON (5.0.4-beta)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SwiftyJSON (5.0.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.6.4)
+  - extobjc
+  - HandyJSON (~> 5.0.0-beta.1)
+  - Moya
+  - SwiftyJSON
+  - YYModel (= 1.0.4)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Alamofire
+    - extobjc
+    - HandyJSON
+    - Moya
+    - SwiftyJSON
+    - YYModel
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  extobjc: a55d2f1212ce1cdac4c88bd19594a15c15bab5dc
+  HandyJSON: a9c67202df97805a0ba4a00e30b50e9a30ac28f3
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 26a8661aa6a177ca3901397c710e2c96dd509d46
+
+COCOAPODS: 1.10.1

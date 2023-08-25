@@ -1,0 +1,6 @@
+module Pods_NetworkMoyaBase {
+  umbrella header "Pods-NetworkMoyaBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
