@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B383EE922A9F231B00D0EDF5 /* MoyaProvider+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383EE8D2A9F231A00D0EDF5 /* MoyaProvider+Combine.swift */; };
+		B383EE932A9F231B00D0EDF5 /* NetworkHelper+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383EE8E2A9F231A00D0EDF5 /* NetworkHelper+Combine.swift */; };
+		B383EE942A9F231B00D0EDF5 /* NetworkPublish.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383EE8F2A9F231A00D0EDF5 /* NetworkPublish.swift */; };
+		B383EE952A9F231B00D0EDF5 /* Publisher+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383EE902A9F231A00D0EDF5 /* Publisher+Response.swift */; };
+		B383EE962A9F231B00D0EDF5 /* MoyaPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383EE912A9F231B00D0EDF5 /* MoyaPublisher.swift */; };
 		B3AEB9512A974E0A006EC984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEB9502A974E0A006EC984 /* AppDelegate.m */; };
 		B3AEB9542A974E0A006EC984 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEB9532A974E0A006EC984 /* SceneDelegate.m */; };
 		B3AEB9572A974E0A006EC984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AEB9562A974E0A006EC984 /* ViewController.m */; };
@@ -33,6 +38,11 @@
 /* Begin PBXFileReference section */
 		74CF77BCD8DEB8D314B63517 /* Pods-NetworkMoyaBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkMoyaBase.debug.xcconfig"; path = "Target Support Files/Pods-NetworkMoyaBase/Pods-NetworkMoyaBase.debug.xcconfig"; sourceTree = "<group>"; };
 		948DC9EFF5CBB1AF5585ACDF /* Pods-NetworkMoyaBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkMoyaBase.release.xcconfig"; path = "Target Support Files/Pods-NetworkMoyaBase/Pods-NetworkMoyaBase.release.xcconfig"; sourceTree = "<group>"; };
+		B383EE8D2A9F231A00D0EDF5 /* MoyaProvider+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Combine.swift"; sourceTree = "<group>"; };
+		B383EE8E2A9F231A00D0EDF5 /* NetworkHelper+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkHelper+Combine.swift"; sourceTree = "<group>"; };
+		B383EE8F2A9F231A00D0EDF5 /* NetworkPublish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkPublish.swift; sourceTree = "<group>"; };
+		B383EE902A9F231A00D0EDF5 /* Publisher+Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+Response.swift"; sourceTree = "<group>"; };
+		B383EE912A9F231B00D0EDF5 /* MoyaPublisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaPublisher.swift; sourceTree = "<group>"; };
 		B3AEB94C2A974E0A006EC984 /* NetworkMoyaBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkMoyaBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AEB94F2A974E0A006EC984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3AEB9502A974E0A006EC984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +97,18 @@
 				948DC9EFF5CBB1AF5585ACDF /* Pods-NetworkMoyaBase.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B383EE8C2A9F22FB00D0EDF5 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				B383EE8D2A9F231A00D0EDF5 /* MoyaProvider+Combine.swift */,
+				B383EE912A9F231B00D0EDF5 /* MoyaPublisher.swift */,
+				B383EE8E2A9F231A00D0EDF5 /* NetworkHelper+Combine.swift */,
+				B383EE8F2A9F231A00D0EDF5 /* NetworkPublish.swift */,
+				B383EE902A9F231A00D0EDF5 /* Publisher+Response.swift */,
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		B3AEB9432A974E0A006EC984 = {
@@ -151,6 +173,7 @@
 		B3AEB96C2A9750F9006EC984 /* MoyaWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				B383EE8C2A9F22FB00D0EDF5 /* Combine */,
 				B3AEB9772A97524D006EC984 /* AppBaseExtension.swift */,
 				B3AEB9712A975136006EC984 /* BaseNetData.swift */,
 				B3AEB96F2A975136006EC984 /* EnvHelper.swift */,
@@ -279,6 +302,8 @@
 				B3AEB9752A975136006EC984 /* NetworkHelper.swift in Sources */,
 				B3AEB9572A974E0A006EC984 /* ViewController.m in Sources */,
 				B3AEB9732A975136006EC984 /* MoyaHelper.swift in Sources */,
+				B383EE942A9F231B00D0EDF5 /* NetworkPublish.swift in Sources */,
+				B383EE922A9F231B00D0EDF5 /* MoyaProvider+Combine.swift in Sources */,
 				B3AEB9852A975562006EC984 /* NZNetworkingConfiguration.m in Sources */,
 				B3AEB9742A975136006EC984 /* EnvHelper.swift in Sources */,
 				B3AEB9842A975562006EC984 /* NZNetworking.m in Sources */,
@@ -290,7 +315,10 @@
 				B3AEB9782A97524D006EC984 /* AppBaseExtension.swift in Sources */,
 				B3AEB96A2A9750BD006EC984 /* Swift-Bridge.swift in Sources */,
 				B3AEB9862A975562006EC984 /* NZNetData.m in Sources */,
+				B383EE932A9F231B00D0EDF5 /* NetworkHelper+Combine.swift in Sources */,
+				B383EE962A9F231B00D0EDF5 /* MoyaPublisher.swift in Sources */,
 				B3AEB9882A97564C006EC984 /* NZAlamoSmartNetAgent.swift in Sources */,
+				B383EE952A9F231B00D0EDF5 /* Publisher+Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +472,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +506,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
