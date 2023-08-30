@@ -66,7 +66,7 @@ typedef BOOL (^NZErrorHandleBlock)(NZNetData *data);
 - (MoyaNetStub *) get:(NSString *)url timeout:(CGFloat)interval callback:(NZNetWorkingBlock)block;
 
 - (MoyaNetStub *) get:(NSString *)url parameters:(NSDictionary *)params callback:(NZNetWorkingBlock)block;
-
+  
 - (MoyaNetStub *) get:(NSString *)url parameters:(NSDictionary *)params timeout:(CGFloat)interval callback:(NZNetWorkingBlock)block;
 
 - (MoyaNetStub *) get:(NSString *)url parameters:(NSDictionary *)params modelCls:(Class)modelCls timeout:(CGFloat)interval callback:(NZNetWorkingBlock)block;
